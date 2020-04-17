@@ -1,0 +1,34 @@
+{
+  "name": "contact-tracing",
+  "version": "0.0.1",
+  "description": "Implements Bluetooth Contact Tracing Protocol",
+  "main": "contact-tracing.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tzachari/contact-tracing.git"
+  },
+  "keywords": [
+    "ble",
+    "bluetooth",
+    "contact",
+    "tracing",
+    "covid",
+    "coronavirus",
+    "tcn",
+    "cen"
+  ],
+  "author": "Thomas Zachariah",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/tzachari/contact-tracing/issues"
+  },
+  "homepage": "https://github.com/tzachari/contact-tracing#readme",
+  "dependencies": {
+    "bleno": "^0.5.0",
+    "noble": "^1.9.1",
+    "uuid": "^7.0.3"
+  }
+}
