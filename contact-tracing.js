@@ -1,7 +1,7 @@
 /* Bluetooth Contact Tracing Protocol */
 
-const bleno = require( 'bleno' )  // BLE Advertiser Library
-const noble = require( 'noble' )  // BLE Scanner Library
+const bleno = require( '@abandonware/bleno' )  // BLE Advertiser Library
+const noble = require( '@abandonware/noble' )  // BLE Scanner Library
 const uuid  = require( 'uuid' )   // UUID Generator Library
 
 var service  = {

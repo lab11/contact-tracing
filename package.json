@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tzachari/contact-tracing.git"
+    "url": "git+https://github.com/lab11/contact-tracing.git"
   },
   "keywords": [
     "ble",
@@ -23,12 +23,12 @@
   "author": "Thomas Zachariah",
   "license": "Apache 2.0",
   "bugs": {
-    "url": "https://github.com/tzachari/contact-tracing/issues"
+    "url": "https://github.com/lab11/contact-tracing/issues"
   },
-  "homepage": "https://github.com/tzachari/contact-tracing#readme",
+  "homepage": "https://github.com/lab11/contact-tracing#readme",
   "dependencies": {
-    "bleno": "^0.5.0",
-    "noble": "^1.9.1",
+    "@abandonware/bleno": "^0.5.1-2",
+    "@abandonware/noble": "^1.9.2-8",
     "uuid": "^7.0.3"
   }
 }
